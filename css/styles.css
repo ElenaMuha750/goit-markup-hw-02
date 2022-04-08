@@ -1,3 +1,29 @@
 body {
-  background-color: rgb(208, 226, 226);
+  font-family: Roboto, Tahoma, sans-serif;
 }
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* 
+:root {
+  --title-text-color: color: #212121;
+  --main-title-color: color: #FFFFFF;
+  --second-title-color: color: #212121;
+  --main-btn-color:
+  --footer-color: color: rgba(255, 255, 255, 0.6);
+  --accent-color: #2196F3;
+  --logo-color: #000000;
+
+  color: #212121;
+  color: #757575;
+  color: #FFFFFF;
+  color: rgba(255, 255, 255, 0.6);
+  logo-color: #000000;
+
+*/
