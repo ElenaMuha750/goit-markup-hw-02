@@ -210,3 +210,40 @@ body {
 .footer-contact:focus {
   color: var(--primary-white-color);
 }
+
+/*---------------------- Портфолио --------------------*/
+
+.portfolio-btn {
+  color: var(--main-title-color);
+  background-color: var(--secondary-bcg-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  text-align: center;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-direction {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.portfolio-link {
+  text-decoration: none;
+  color: var(--main-title-color);
+}
