@@ -6,7 +6,6 @@
 вторичный цвет фона #F5F4FA;
 цвет фона герой, футер  #2F303A
 цвет logo-studio #000000;
-
 */
 
 :root {
@@ -36,7 +35,7 @@ body {
 .logo,
 .logo-black,
 .logo-white {
-  font-family: 'Raleway' Tahoma, sans-serif;
+  font-family: 'Raleway', Tahoma, sans-serif;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -52,7 +51,6 @@ body {
 }
 
 /* ------------Site nav---------- */
-
 
 .header-link {
   font-weight: 500;
@@ -71,8 +69,9 @@ body {
   color: var(--main-text-color);
   }
 
+
   .contact-link:hover,
-.contact-link:focus {
+  .contact-link:focus {
   color: var(--accent-color);
 }
 
@@ -84,3 +83,22 @@ body {
 .current {
   color: var(--accent-color);
 
+/* --------------------Hero---------------------- */
+
+.hero {
+  background-color: #2F303A;
+}
+
+.hero-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.hero-button {
+}
+ 
