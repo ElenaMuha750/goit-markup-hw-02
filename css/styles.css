@@ -42,6 +42,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
+
 .logo-black {
   color: #000000;
 }
@@ -51,6 +52,8 @@ body {
 }
 
 /* ------------Site nav---------- */
+
+
 .header-link {
   font-weight: 500;
   font-size: 14px;
@@ -58,6 +61,19 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-title-color);
   cursor: pointer;
+}
+
+.contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+  }
+
+  .contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
 }
 
 .header-link:hover,
@@ -68,16 +84,3 @@ body {
 .current {
   color: var(--accent-color);
 
-.contact-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #757575;
-  cursor: pointer;
-}
-
-.contact-link:hover,
-.contact-link:focus {
-  color: var(--accent-color);
-}
