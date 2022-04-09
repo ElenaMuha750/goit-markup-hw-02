@@ -214,6 +214,7 @@ body {
 /*---------------------- Портфолио --------------------*/
 
 .portfolio-btn {
+  font-family: inherit;
   color: var(--main-title-color);
   background-color: var(--secondary-bcg-color);
   font-weight: 500;
