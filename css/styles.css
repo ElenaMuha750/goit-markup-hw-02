@@ -195,7 +195,7 @@ body {
 
 .footer-adress:hover,
 .footer-adress:focus {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--accent-color);
 }
 
 .footer-contact {
@@ -208,7 +208,7 @@ body {
 
 .footer-contact:hover,
 .footer-contact:focus {
-  color: var(--primary-white-color);
+  color: var(--accent-color);
 }
 
 /*---------------------- Портфолио --------------------*/
@@ -229,6 +229,11 @@ body {
 .portfolio-btn:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+}
+
+.current-filter {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
 }
 
 .portfolio-title {
