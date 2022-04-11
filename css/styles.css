@@ -19,8 +19,9 @@
 
 body {
   font-family: Roboto, Tahoma, sans-serif;
-  background-color: #ffffff;
+  background-color: var(--primary-white-color);
   color: #212121;
+  font-size: 14px;
 }
 
 .link {
@@ -55,7 +56,6 @@ body {
 
 .header-link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
@@ -64,7 +64,6 @@ body {
 
 .contact-link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
@@ -132,7 +131,6 @@ body {
 }
 
 .features-title {
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -140,7 +138,6 @@ body {
 }
 
 .features-text {
-  font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
@@ -186,7 +183,6 @@ body {
 }
 
 .footer-adress {
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
@@ -199,7 +195,6 @@ body {
 }
 
 .footer-contact {
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
